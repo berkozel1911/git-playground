@@ -1,0 +1,10 @@
+# Add file git to track
+git add nonexistent_file
+
+# Add modified file to git
+git add modified_file
+
+# Use wildcards to add multiple files
+git add * (careful)
+git add *.c
+
