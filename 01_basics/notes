@@ -8,3 +8,9 @@ git add modified_file
 git add * (careful)
 git add *.c
 
+# Revert a file from the staging area
+git add file
+git reset HEAD file
+
+# Undo changes from the modified file
+git checkout -- file
